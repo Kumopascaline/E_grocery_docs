@@ -44,10 +44,22 @@ Manage inventory: Automatically updates the inventory levels of products based o
 
 The App was build using Fluter using the Dart language with clean Architecture.
 
+  THE UI MODEL
+The UI model of an E-grocery system is the part of the system that customers interact with to browse products, place orders, and make payments. Here are some key components of the UI model:
+
+Home page: The home page is the first page customers see when they visit the website or open the mobile app. It typically includes a search bar, navigation menu, and featured products.
+
+Product catalog: The product catalog is the section of the website or app where customers can browse products by category, search for specific items, and view product details such as descriptions, images, and prices.
+
+Shopping cart: The shopping cart is where customers can review the items they have added to their cart, adjust the quantities or remove items, and proceed to checkout.
+
+Account management: The account management section of the website or app allows customers to create and manage their user accounts. This includes features such as viewing order history, managing payment methods, and updating account information.
 
 
 
-By dividing the Educmr app into these three layers,  the code is organized in a clean and easily scalable way. Each layer has a specific responsibility and can be developed and tested separately from the others. This makes it easier to maintain and modify the app over time.
+
+
+
 
   
 
