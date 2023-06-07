@@ -1,48 +1,51 @@
-  Educmr mobile App
+  ONLINE GROCERY SHOPPING SYSTEM
+  (E-GROCERY) 
 
     Introduction
-
-Many High school students, in and out of Cameroon find it difficult to transition from secondary to University education in Cameroon due to limited information on the wonderful institutions and educational programs, tuition and quality of teaching, as well as Accommodation facilities offered by these institutions
+    
+Customers may buy groceries and other household supplies online from the convenience of their homes using an e-grocery system. A typical component of this kind of system is an online store or mobile app that sells a variety of goods, such as groceries, home goods, and fresh produce. A number of payment options are accepted when customers browse the available products, add items to their virtual shopping carts, and finish their purchases online. Additionally, e-grocery systems could offer alternatives for curbside pickup or home delivery in addition to order tracking and customer support services. These technologies are intended to make grocery shopping for customers quick and easy, but simultaneously minimizing face-to-face encounters and encouraging social seclusion.
 
   Purposes of the app
+	The major goals of on-line grocery are:
+The creation and development of new models.
+-On-line grocery shopping can increase the productivity of an on-line grocery merchant by providing "just in time" service, cutting down on overhead costs, and shortening supply chains.
+-Save the user's time and effort. 
+-Save time and effort compared to driving a car or taking public transportation like a jeep. 
+-Unlike conventional markets, where you must wait in line at the checkout counter to load all of your products, on-line grocery shopping allows you to sit back, relax, and search for the product. In order to make grocery shopping easier for consumers, the proponents suggested an on-line system.
 
-Having a highly attractive and user friendly mobile Application like EduCMR will enable students access first hand detailed information on the variety of higher educational institutions, student location proximity and accommodation facilities, will go a long way to help more and more national and foreign students pursue Undergraduate, graduate and Post-graduate studies in Cameroon - Africa in miniature.
+
+
 
   Main Functionalities
+  USE CASE MODELS
+This use case model outlines the key features and functionalities of the  E-grocery system from the perspective of the customers, administrators, and the system itself. It provides a high-level overview of the system's capabilities and helps to ensure that all stakeholders have a clear understanding of how the system works.Here are the use case model for the E-grocery system:
 
-EduCMR is an innovative EdTech Software solution that provides may tools and features to ease access to Higher education in Cameroon for all.
-Features include:
--Detailed Listings of Accredited Universities in Cameroon.
--Admission info, School rankings, Offered Programs, Galleries
--Hostels and Accommodation facilities around these institutions
--Institution Reviews by Past and Current Students
--University Recommendations based on user choice locations, program and tuition budget
--Infos on upcoming Concours.
+  Customer
+Register account: Allows new customers to register an account on the e-grocery system.
+Login: Allows customers to login to their account and access the system.
+Browse products: Allows customers to browse the available products in the e-grocery system.
+Search for products: Allows customers to search for specific products using keywords or filters.
+Add items to cart: Allows customers to add items to their shopping cart.
+View cart: Allows customers to view the items in their shopping cart.
+Remove items from cart: Allows customers to remove items from their shopping cart.
+
+
+  Administrator
+Login: Allows the administrator to login to the e-grocery system.
+Manage products: Allows the administrator to add, edit, or delete products from the e-grocery system.
+
+
+  System
+Manage inventory: Automatically updates the inventory levels of products based on customer orders.
+
 
 
   App Architecture
 
-The App was build using React Native with clean Architecture.
-•	Bridge is used to connect with native platform components. 
-•	App relies on heavily on reusable and independent components.
-•	The UI sits on a virtual DOM(Document object model) for cross-platform compatibility.
-•	Modular architecture, possible of bining native codes with Javascript and Typescript.
+The App was build using Fluter using the Dart language with clean Architecture.
 
-The app is divided into three Layers.  UI Layer, Logic layer and Data Layer.
 
-  - UI Layer
 
-    React Native
-
- Layer represents all the components or UI elements that the user interacts with like buttons, popups, text, etc. The UI layer is responsible for displaying the UI elements and handling the user input.
-
-  - Logic Layer
-
-    Javascript or Typescript: Layer contains the business logic of the application. It is responsible for processing data, handling the application's state, and making network requests. The logic layer is where most of the app's functional code resides.
-
-  - Data Layer 
-
-    Firebase database, APIs, local storage, or the device's file system.
 
 By dividing the Educmr app into these three layers,  the code is organized in a clean and easily scalable way. Each layer has a specific responsibility and can be developed and tested separately from the others. This makes it easier to maintain and modify the app over time.
 
