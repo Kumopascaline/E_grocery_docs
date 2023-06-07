@@ -46,9 +46,9 @@ source_suffix = '.rst'
 root_doc = 'index'
 
 # General information about the project.
-project = 'Educmr'
-copyright = 'Educmr 2023'
-author = 'Fonya Brandone'
+project = 'E_Grocery'
+copyright = 'E_Grocery 2023'
+author = 'Kumo Pascaline'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
